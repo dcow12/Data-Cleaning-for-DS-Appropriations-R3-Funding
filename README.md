@@ -5,8 +5,12 @@ This notebook inputs raw CSV files containing funding requests, standardizes the
 
 What it does:
 
-Ignores headers and enforces certain constraints if typed wrong
-Cleans $, %, and standardizes Y/N inputs
-Identifies and reports rows where a financial deduction occurred but no justification was provided.
-Identifies missing critical amounts.
-Outputs a standardized CSV.
+* Ignores headers and enforces certain constraints if typed wrong
+
+* Cleans $, %, and standardizes Y/N inputs
+
+* Identifies and reports rows where a financial deduction occurred but no justification was provided.
+
+* Identifies missing critical amounts.
+
+* Outputs a standardized CSV.
